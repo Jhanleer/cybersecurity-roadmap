@@ -1,24 +1,14 @@
-\# Port Scanner básico
+\# Cybersecurity Roadmap
 
 
 
-Script de práctica para aprender los fundamentos de Python aplicados 
+Repositorio donde documento mi progreso aprendiendo Python aplicado 
 
-a ciberseguridad: sockets, manejo de excepciones, TCP.
-
-
-
-\## Uso
-
-python scanner.py
-
-(te pide un host y escanea una lista de puertos comunes)
+a ciberseguridad, desde fundamentos hasta herramientas reales.
 
 
 
-\## Nota
+\## Proyectos
 
-Solo usar contra hosts que tengas permiso de escanear 
-
-(ej: scanme.nmap.org)
+\- \[Port Scanner](./port-scanner) - escáner básico de puertos TCP
 
