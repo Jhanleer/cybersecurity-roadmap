@@ -104,3 +104,99 @@ Evaluación del código de salida de un comando mediante $?.
 
 Automatización de tareas utilizando herramientas del sistema como ping y Nmap.
 
+
+
+
+
+**Log Analyzer (Bash)**
+
+
+
+Script en bash que analiza los logs del sistema para detectar 
+
+intentos fallidos de autenticación SSH y generar un reporte de seguridad.
+
+
+
+\## Modo de uso
+
+
+
+./log\_analyzer.sh
+
+
+
+(No requiere argumentos — lee los logs del sistema automáticamente)
+
+
+
+\## Qué hace
+
+
+
+\- Cuenta el total de intentos fallidos de login SSH
+
+\- Muestra las 5 IPs con más intentos fallidos (posibles atacantes)
+
+\- Muestra los 5 usuarios más atacados
+
+\- Muestra los últimos 5 intentos fallidos en tiempo real
+
+
+
+\## Qué aprendí
+
+
+
+\- Usar grep para filtrar líneas específicas de logs
+
+\- Usar awk para extraer columnas de texto por posición
+
+\- Usar cut para extraer campos separados por delimitadores
+
+\- Usar sed para buscar y reemplazar texto
+
+\- Combinar herramientas con pipes (|) para procesar texto en cadena
+
+\- Usar sort, uniq -c y sort -rn para contar y ordenar ocurrencias
+
+\- Leer logs del sistema con journalctl
+
+\- Guardar output de comandos en variables con $()
+
+\- Diferencia entre grep, awk y sed y cuándo usar cada uno
+
+
+
+\## Herramientas usadas
+
+
+
+| Herramienta | Para qué se usó |
+
+|---|---|
+
+| journalctl | Leer logs del sistema |
+
+| grep | Filtrar líneas con intentos fallidos |
+
+| awk | Extraer IP y usuario de cada línea |
+
+| sort | Ordenar resultados para conteo |
+
+| uniq -c | Contar ocurrencias repetidas |
+
+| head / tail | Mostrar primeros o últimos resultados |
+
+| wc -l | Contar total de líneas |
+
+
+
+\## Nota
+
+
+
+Este script lee logs reales del sistema. Úsalo en entornos 
+
+que tengas permiso de monitorear.
+
