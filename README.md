@@ -14,5 +14,5 @@ a ciberseguridad, desde fundamentos hasta herramientas reales.
 
 \- \[Header Analyzer](./header-analyzer) - analiza headers de seguridad HTTP de un sitio web
 
-
+\- \[Bash Scripts](./bash-scripts) - scripts de reconocimiento y análisis de logs SSH
 
