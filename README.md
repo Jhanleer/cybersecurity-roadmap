@@ -16,3 +16,5 @@ a ciberseguridad, desde fundamentos hasta herramientas reales.
 
 \- \[Bash Scripts](./bash-scripts) - scripts de reconocimiento y análisis de logs SSH
 
+\- \[Log Analyzer](./log-analyzer) - analiza logs SSH y detecta intentos fallidos
+
