@@ -9,7 +9,7 @@ El script debe:
 import re
 from collections import Counter
 import argparse
-import subprocess
+
 
 parse= argparse.ArgumentParser(description="log analyzer")
 
