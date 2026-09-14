@@ -1,0 +1,16 @@
+# Clave de encriptación - nunca subir
+secret.key
+
+# Archivos de prueba que hayas encriptado/desencriptado
+*.encrypted
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Archivos del sistema
+.DS_Store
