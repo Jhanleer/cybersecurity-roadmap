@@ -51,7 +51,8 @@ Las otras dos subredes del /24 (`.128` y `.192`) quedan libres para crecer.
 | Router, subinterfaz Gi0/0.10 | 10 | 192.168.20.3 | N/A |
 | Router, subinterfaz Gi0/0.20 | 20 | 192.168.20.67 | N/A |
 
-> Agregar captura de la topología: `capturas/topologia-vlan.png`
+<img width="825" height="296" alt="image" src="https://github.com/user-attachments/assets/17039e6e-980b-4ca2-b6e8-2986623e45ad" />
+
 
 ---
 
@@ -112,7 +113,8 @@ show interfaces trunk
 
 La línea clave es **"Vlans allowed and active in management domain"**: debe mostrar `10,20` en los dos switches.
 
-> Agregar capturas: `capturas/trunk-switch0.png` y `capturas/trunk-switch1.png`
+<img width="946" height="976" alt="image" src="https://github.com/user-attachments/assets/f62f4a26-6717-4fea-b1ce-daf84c9f58d9" />
+
 
 ### Resultado
 
@@ -154,7 +156,8 @@ end
 
 Verificación: `show ip interface brief` debe mostrar `GigabitEthernet0/0`, `0/0.10` y `0/0.20` en **up/up**.
 
-> Agregar captura: `capturas/router-interfaces.png`
+<img width="707" height="232" alt="image" src="https://github.com/user-attachments/assets/4d3913f7-ab89-41bd-a564-f88717fb5986" />
+
 
 ### Pruebas finales
 
