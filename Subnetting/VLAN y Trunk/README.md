@@ -85,7 +85,8 @@ Verificación:
 show vlan brief
 ```
 
-> Agregar capturas de `show vlan brief` de los dos switches: `capturas/vlan-switch0.png` y `capturas/vlan-switch1.png`
+<img width="947" height="887" alt="image" src="https://github.com/user-attachments/assets/7662e61a-f4d5-45d7-8f22-f103726c8bd8" />
+
 
 ### Prueba de aislamiento
 
